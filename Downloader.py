@@ -35,6 +35,7 @@ def main():
     jsondata = json.dumps(jsondata)
     post = urllib.request.urlopen(url, data=jsondata.encode())
     post.close()
+    print(f'[+] Successfully downloaded {file}.')
 
 if __name__ == '__main__':
     arguments = get_arguments()
