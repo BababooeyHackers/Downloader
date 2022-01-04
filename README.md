@@ -18,7 +18,7 @@ $ sudo pacman -S python python-pip git apache php php-apache
 $ sudo systemctl start httpd
 $ cd /srv/http/
 $ sudo git clone https://github.com/BababooeyHackers/Downloader.git
-$ sudo chown -R www-data:www-data /var/www/html/Downloader/
+$ sudo chown -R www-data:www-data /srv/http/Downloader/
 $ cd Downloader/
 $ pip3 install -r requirements.txt
 ```
