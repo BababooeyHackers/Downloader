@@ -2,7 +2,7 @@
 /*
 * serverside reciever: grabs files to be written and writes them to disk. 
 *
-*🖊 edit the string on line 51 for the server-side to work.
+*🖊 edit the string on line 53 for the server-side to work.
 *
 *@author: The Ultimate War Machine
 */
